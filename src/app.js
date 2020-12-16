@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use('/api/hotel', hotel);
 app.get('/',async (req,res)=>{
     
-    res.json('wellcom to hotel api ...');
+    res.json('wellcom to hotel api ....');
 })
 
 app.listen(port,()=>{
