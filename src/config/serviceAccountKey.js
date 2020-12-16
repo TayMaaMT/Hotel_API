@@ -1,5 +1,4 @@
 require('dotenv').config();
-console.log("fuck you");
 module.exports = serviceAccountKey = {
   "type": "service_account",
   "project_id": "hotel-3d761",
